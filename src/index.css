@@ -1,0 +1,26 @@
+html{
+  min-height: 100%;
+}body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url('/img/bg6.jpeg') no-repeat;
+  background-size: 100%;
+  background-position: inherit;
+  background-color: grey;
+  min-height: 100%;
+}
+form{
+  padding: 30px;
+  margin-top: 60px;
+}
+form button, form h6{
+  margin: 20px, 0px;
+}
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]){
+  border-color: rgb(194, 4, 99);
+  box-shadow: none;
+}
